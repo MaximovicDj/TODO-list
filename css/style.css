@@ -1,0 +1,90 @@
+@import "login.css";
+
+@import "register.css";
+
+@import "wrapper.css";
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color:#66a3ff ;
+}
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width:860px){
+  #wrapper{
+    width:400px;
+  }
+
+  #user-wellcome{
+    width:50%;
+  }
+
+  #user-wellcome p{
+    font-size:20px;
+  }
+
+  #addDiv{
+    margin-left:40px;
+  }
+
+  #addDiv input{
+    width:30%;
+    padding:5px;
+  }
+
+  #addDiv button{
+    padding:5px;
+  }
+
+  #list-title{
+    font-size:20px;
+  }
+
+  .list span{
+    font-size:14px;
+  }
+
+  #login-form input{
+    width:50%;
+  }
+
+  #register-form input{
+    width:50%;
+  }
+}
+
+
+@media only screen and (max-width:680px){
+  #wrapper {
+    width:300px;
+  }
+
+  #user-wellcome p{
+    font-size: 20px;
+  }
+
+  #addDiv input{
+    width:20%;
+    padding:4px;
+  }
+
+  #addDiv button{
+    width:10%;
+    padding:4px;
+  }
+
+  .list span{
+    font-size:10px;
+  }
+
+  #login-form input{
+    width:50%;
+  }
+  #register-form input{
+    width:50%;
+  }
+}

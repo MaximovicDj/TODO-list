@@ -1,0 +1,102 @@
+/* style User wellcome TITLE */
+#user-wellcome{
+  background-color: #fff;
+  width: 650px;
+  margin: 0 auto;
+  padding:4px;
+  border-radius: 8px;
+}
+#user-wellcome p {
+  font-size: 40px;
+  font-weight: 300;
+  margin:0;
+  padding:10px;
+  text-align: center;
+}
+
+#logout-link{
+  margin-left: 45%;
+}
+
+/* style wrapper for page */
+#wrapper{
+    background-color: #fff;
+    width: 650px;
+    margin: 10px auto;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+
+/* style TITLE for todo list */
+#list-title{
+    font-size: 50px;
+    border-bottom: 2px solid #ff0000;
+    font-weight: 300;
+    text-align: center;
+    margin: 40px 0 30px 0;
+}
+
+/* style add DIV for todo list */
+#addDiv{
+    width: 550px;
+    margin: 0 auto;
+}
+/* style input for todo lost */
+#addInput{
+    padding: 10px;
+    width: 75%;
+    border-radius: 5px;
+}
+/* style button for todo */
+#addBtn {
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    background-color: #a3a375;
+    color:#fff;
+}
+
+/* Style Tasks FROM DATABGASE*/
+.list{
+  width:550px;
+  margin:30px auto;
+  padding:10px;
+}
+
+.list span{
+  padding:10px;
+}
+
+.list span:hover{
+  background-color:lightgray;
+  cursor:pointer;
+}
+
+/* Style X BUTTON for Deleteing tasks*/
+.fa-xmark{
+  /* margin-right:5px; */
+  color:red;
+  border:1px solid black;
+  border-radius: 5px;
+  padding:5px;
+}
+.fa-xmark:hover{
+  background-color:lightgray;
+  color:#fff;
+  cursor:pointer;
+}
+
+/* Style Logout LINK*/
+#logout{
+  width:100px;
+  margin:0 auto;
+}
+
+/* Style span for displaying message*/
+#indexResponse{
+  width:500px;
+  margin:20px auto;
+  color:#fff;
+  text-align:center;
+}
